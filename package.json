@@ -1,0 +1,16 @@
+{
+  "name": "yallow-whatsapp-webhook",
+  "version": "1.0.0",
+  "description": "WhatsApp Cloud API Webhook for Yallow Reverse OTP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
